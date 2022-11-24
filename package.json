@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Silly-Potato/Dev-ops/issues"
   },
-  "homepage": "https://github.com/Silly-Potato/Dev-ops#readme"
+  "homepage": "https://github.com/Silly-Potato/Dev-ops#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
 }
