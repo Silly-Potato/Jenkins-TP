@@ -1,0 +1,19 @@
+{
+  "name": "dev-ops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silly-Potato/Dev-ops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silly-Potato/Dev-ops/issues"
+  },
+  "homepage": "https://github.com/Silly-Potato/Dev-ops#readme"
+}
