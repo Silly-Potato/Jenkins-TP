@@ -1,7 +1,7 @@
-FROM node:12-alpine3.14
+FROM node:16
 WORKDIR /app
 COPY package.json /app
-RUN npm ci --only=production && npm cache clean --force
+RUN npm install
 COPY . /app
+EXPOSE 8081
 CMD node main.js
-EXPOSE 8080
