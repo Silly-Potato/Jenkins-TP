@@ -1,7 +1,3 @@
-function main() {
-    return;
-}
-
 function add(a, b) {
     return a + b;
 }
@@ -18,5 +14,6 @@ function divide(a, b) {
 }
 
 console.log("Hello Jenkins!")
+
 
 module.exports = { add, multiply, divide }
