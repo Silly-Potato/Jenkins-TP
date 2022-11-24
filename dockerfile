@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-EXPOSE 8081
+EXPOSE 8080
 CMD node main.js
